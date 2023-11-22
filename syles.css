@@ -1,0 +1,95 @@
+. {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+.fd-column {
+  flex-direction: column;
+}
+.fd-reverse {
+  flex-direction: row-reverse;
+}
+
+.fd-nowrap {
+  flex-direction: nowrap;
+}
+
+.fw-wrap {
+  flex-wrap: wrap;
+}
+.fw-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.jc-justify-content {
+  justify-content: start;
+}
+.jc-center {
+  justify-content: center;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+.ai-star {
+  justify-content: start;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-end {
+  align-items: end;
+}
+
+.gap {
+  display: flex;
+  gap: 15px;
+}
+
+.self {
+  display: flex;
+  align-self: end;
+}
